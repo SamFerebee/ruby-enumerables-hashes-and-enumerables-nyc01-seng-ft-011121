@@ -10,7 +10,7 @@ def select_winner(passengers)
   # add the code snippet here!
   winner = ""
   passengers.each do |key, value|
-    if key == :suite_a && val[0] == "A"
+    if key == :suite_a && value[0] == "A"
       winner = value
     end
   end
